@@ -18,7 +18,7 @@ public class GetMovieQueryHandler : IRequestHandler<GetMovieQuery, MovieDto?>
     {
         var movie = await _dbContext.Movies
             .AsNoTracking()
-            .SingleOrDefaultAsync(x => (Guid) x.Id == request.MovieId, cancellationToken);
+            .SingleOrDefaultAsync(x => x.Id == request.MovieId, cancellationToken);
 
         return movie?.AsDto();
     }
