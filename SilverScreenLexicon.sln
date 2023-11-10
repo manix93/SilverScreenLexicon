@@ -1,8 +1,40 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverScreenLexicon.Api", "SilverScreenLexicon.Api\SilverScreenLexicon.Api.csproj", "{A75D5216-D2D9-4571-A39D-9DEDCF0ED52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverScreenLexicon.Infrastructure", "SilverScreenLexicon.Infrastructure\SilverScreenLexicon.Infrastructure.csproj", "{78F7C2F9-892D-47B4-8C88-36C39CC78F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverScreenLexicon.Core", "SilverScreenLexicon.Core\SilverScreenLexicon.Core.csproj", "{47A3758D-A93A-4C10-93FB-B4CA5F16F568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverScreenLexicon.Application", "SilverScreenLexicon.Application\SilverScreenLexicon.Application.csproj", "{B3FA4A4C-FAEF-46DE-955D-152BED236EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverScreenLexicon.Shared", "SilverScreenLexicon.Shared\SilverScreenLexicon.Shared.csproj", "{8685906B-1F31-4882-AB77-EFCF476B4C98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A75D5216-D2D9-4571-A39D-9DEDCF0ED52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75D5216-D2D9-4571-A39D-9DEDCF0ED52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75D5216-D2D9-4571-A39D-9DEDCF0ED52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75D5216-D2D9-4571-A39D-9DEDCF0ED52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F7C2F9-892D-47B4-8C88-36C39CC78F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F7C2F9-892D-47B4-8C88-36C39CC78F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F7C2F9-892D-47B4-8C88-36C39CC78F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F7C2F9-892D-47B4-8C88-36C39CC78F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A3758D-A93A-4C10-93FB-B4CA5F16F568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A3758D-A93A-4C10-93FB-B4CA5F16F568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A3758D-A93A-4C10-93FB-B4CA5F16F568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A3758D-A93A-4C10-93FB-B4CA5F16F568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FA4A4C-FAEF-46DE-955D-152BED236EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FA4A4C-FAEF-46DE-955D-152BED236EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FA4A4C-FAEF-46DE-955D-152BED236EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FA4A4C-FAEF-46DE-955D-152BED236EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8685906B-1F31-4882-AB77-EFCF476B4C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8685906B-1F31-4882-AB77-EFCF476B4C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8685906B-1F31-4882-AB77-EFCF476B4C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8685906B-1F31-4882-AB77-EFCF476B4C98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
