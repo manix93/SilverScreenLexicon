@@ -1,5 +1,6 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using SilverScreenLexicon.Application.Commands;
 using SilverScreenLexicon.Application.Queries;
 using SilverScreenLexicon.Shared.DTOs;
 
@@ -34,4 +35,12 @@ public class MoviesController : ControllerBase
 
         return Ok(movie);
     }
-}
+
+    [HttpPost]
+    public async Task<ActionResult<MovieDto>> CreateMovieAsync(CreateMovieCommand command)
+    {
+        var movie = await _mediator.Send(command);
+
+        return CreatedAtRoute(movie.Id, movie);
+    }
+}   

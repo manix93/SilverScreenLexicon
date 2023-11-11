@@ -10,9 +10,9 @@ public class Movie
     
     public DateTimeOffset CreatedAt { get; private set; }
 
-    public Movie(MovieId id, MovieName name)
+    public Movie(MovieName name)
     {
-        Id = id;
+        Id = Guid.NewGuid();
         Name = name;
         CreatedAt = DateTimeOffset.UtcNow;
     }
