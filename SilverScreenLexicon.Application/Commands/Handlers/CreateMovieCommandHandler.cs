@@ -5,7 +5,7 @@ using SilverScreenLexicon.Shared.DTOs;
 
 namespace SilverScreenLexicon.Application.Commands.Handlers;
 
-public class CreateMovieCommandHandler : IRequestHandler<CreateMovieCommand, MovieDto>
+public sealed class CreateMovieCommandHandler : IRequestHandler<CreateMovieCommand, MovieDto>
 {
     private readonly SilverScreenLexiconDbContext _dbContext;
 

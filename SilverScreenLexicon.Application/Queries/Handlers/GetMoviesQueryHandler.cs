@@ -5,7 +5,7 @@ using SilverScreenLexicon.Shared.DTOs;
 
 namespace SilverScreenLexicon.Application.Queries.Handlers;
 
-public class GetMoviesQueryHandler : IRequestHandler<GetMoviesQuery, IEnumerable<MovieItemDto>>
+public sealed class GetMoviesQueryHandler : IRequestHandler<GetMoviesQuery, IEnumerable<MovieItemDto>>
 {
     private readonly SilverScreenLexiconDbContext _dbContext;
 

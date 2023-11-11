@@ -4,4 +4,4 @@ using SilverScreenLexicon.Shared.DTOs;
 
 namespace SilverScreenLexicon.Application.Queries;
 
-public record GetMovieQuery(MovieId MovieId) : IRequest<MovieDto?>;
+public sealed record GetMovieQuery(MovieId MovieId) : IRequest<MovieDto?>;
